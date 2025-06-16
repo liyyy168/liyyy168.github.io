@@ -1,815 +1,295 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
+<!-- Head tag -->
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 7.3.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/css/main.css">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="有时候努力比选择重要"/>
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="AnnieYang"/>
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Y.moon"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="有时候努力比选择重要"/>
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Y.moon"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="website"/>
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="http://example.comimg/home-bg.jpg"/>
+    
+
+        <meta name="twitter:card" content="summary_large_image"/>
+
+    
+
+    
+        <meta name="twitter:image" content="http://example.comimg/home-bg.jpg"/>
+    
+
+    <!-- Title -->
+    
+    <title>Y.moon</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/style.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
-  <script src="/lib/pace/pace.min.js"></script>
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
 
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-  <meta name="description" content="有时候努力比选择重要">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Y.moon">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Y.moon">
-<meta property="og:description" content="有时候努力比选择重要">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="AnnieYang">
-<meta name="twitter:card" content="summary">
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet"/>
 
-<link rel="canonical" href="http://example.com/">
+    <!-- Google Analytics -->
+    
 
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'zh-CN'
-  };
-</script>
+    <!-- favicon -->
+    
 
-  <title>Y.moon</title>
-  
+<meta name="generator" content="Hexo 7.3.0"></head>
 
 
+<body>
 
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Configurable Title</a>
+        </div>
 
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags">
+                            
+                                Tags
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            
+                                Categories
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="https://github.com/klugjo/hexo-theme-clean-blog">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Y.moon</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="house fa-fw"></i>首页</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档</a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="th fa-fw"></i>分类</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="user fa-fw"></i>关于</a>
-
-  </li>
-        <li class="menu-item menu-item-resources">
-
-    <a href="/resources/" rel="section"><i class="download fa-fw"></i>资源</a>
-
-  </li>
-  </ul>
+    <!-- /.container -->
 </nav>
 
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in the theme's configuration: index_cover -->
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>Y.moon</h1>
+                    <hr class="small">
+                    <span class="subheading"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
-
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content index posts-expand">
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/06/14/2.promise/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="AnnieYang">
-      <meta itemprop="description" content="有时候努力比选择重要">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Y.moon">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2025/06/14/2.promise/" class="post-title-link" itemprop="url">未命名</a>
+                <div class="post-preview">
+    <a href="/2025/06/14/2.promise/">
+        <h2 class="post-title">
+            Untitled
         </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2025-06-14 12:41:58" itemprop="dateCreated datePublished" datetime="2025-06-14T12:41:58+08:00">2025-06-14</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-06-13 16:37:35" itemprop="dateModified" datetime="2025-06-13T16:37:35+08:00">2025-06-13</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="Promise-异步"><a href="#Promise-异步" class="headerlink" title="Promise 异步"></a>Promise 异步</h2><blockquote>
-<p>js核心代码在执行过程中，有的代码 代码  会在跳过执行，等待一段时间以后 又会继续执行，打破了<code>从上至下，从左至右</code>的执行顺序，  这种代码我们统称为异步代码  </p>
-</blockquote>
-<ul>
-<li>定时器 延时器 </li>
-<li>ajax </li>
-<li>事件的监听和执行函数</li>
-<li>Promise 异步  类</li>
-</ul>
-<h2 id="1-基础语法"><a href="#1-基础语法" class="headerlink" title="1.基础语法"></a>1.基础语法</h2><p>promise状态：  </p>
-<blockquote>
-<p>pending   等待</p>
-<p>resolve&#x3D;&#x3D;&#x3D; fulfilled  成功</p>
-<p>reject     rejected   失败</p>
-</blockquote>
-<blockquote>
-<p>promise 状态只会有一个结果， 状态不可逆，    <code>等待---&gt;成功</code>  <code>等待--&gt;失败</code></p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//创建pormise实例对象</span></span><br><span class="line"><span class="keyword">let</span> p1 = <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="keyword">function</span>(<span class="params">resolve,reject</span>)&#123;</span><br><span class="line">       <span class="comment">//     resolve:等待一段时间后 成功执行之后的回调函数</span></span><br><span class="line">       <span class="comment">//     reject: 等待一段时间后 失败执行之后的回调函数</span></span><br><span class="line">       <span class="comment">//如果promise 的状态 是不成功 不失败   pending 等待.... </span></span><br><span class="line">    <span class="title function_">resolve</span>()  <span class="comment">//只要调用了resolve 就表示状态改为成功fulfilled  </span></span><br><span class="line">    <span class="title function_">reject</span>()  <span class="comment">//只要调用了reject 状态就表示 失败rejected   </span></span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="2-promise-解决的问题"><a href="#2-promise-解决的问题" class="headerlink" title="2.promise 解决的问题"></a>2.promise 解决的问题</h2><blockquote>
-<p>回调地狱问题</p>
-<p>回调函数  有 回调  里面 还有回调</p>
-<p>回调函数嵌套 层级 超过三层，一般就说形成了回调地狱</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">const</span> http = &#123;</span><br><span class="line">    <span class="title function_">get</span>(<span class="params">url,callback</span>)&#123;</span><br><span class="line">        <span class="keyword">let</span> xhr = <span class="keyword">new</span> <span class="title class_">XMLHttpRequest</span>();</span><br><span class="line">        xhr.<span class="title function_">open</span>(<span class="string">&#x27;get&#x27;</span>,url);</span><br><span class="line">        xhr.<span class="title function_">send</span>()</span><br><span class="line">        xhr.<span class="property">onreadystatechange</span> = <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">            <span class="keyword">if</span>(xhr.<span class="property">readyState</span> ==<span class="number">4</span> &amp;&amp; xhr.<span class="property">status</span>==<span class="number">200</span>)&#123;</span><br><span class="line">               <span class="title function_">callback</span>(<span class="title class_">JSON</span>.<span class="title function_">parse</span>(xhr.<span class="property">responseText</span>))</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="title function_">post</span>(<span class="params">url,data,callback</span>)&#123;</span><br><span class="line">         <span class="keyword">let</span> xhr = <span class="keyword">new</span> <span class="title class_">XMLHttpRequest</span>();</span><br><span class="line">            xhr.<span class="title function_">open</span>(<span class="string">&#x27;post&#x27;</span>,url);</span><br><span class="line">        	xhr.<span class="title function_">setReqeustHeader</span>(<span class="string">&#x27;content-type&#x27;</span>,<span class="string">&#x27;application/json&#x27;</span>)</span><br><span class="line">            xhr.<span class="title function_">send</span>(<span class="title class_">JSON</span>.<span class="title function_">stringify</span>(data))</span><br><span class="line">            xhr.<span class="property">onreadystatechange</span> = <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">                <span class="keyword">if</span>(xhr.<span class="property">readyState</span> ==<span class="number">4</span> &amp;&amp; xhr.<span class="property">status</span>==<span class="number">200</span>)&#123;</span><br><span class="line">                   <span class="title function_">callback</span>(<span class="title class_">JSON</span>.<span class="title function_">parse</span>(xhr.<span class="property">responseText</span>))</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="3-通过ajax-体验回调地狱-11-15"><a href="#3-通过ajax-体验回调地狱-11-15" class="headerlink" title="3.通过ajax 体验回调地狱 11:15"></a>3.通过ajax 体验回调地狱 11:15</h3><p>http.js  实现 </p>
-<p><img src="/./1.png"></p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">  </span><br><span class="line">&lt;div <span class="keyword">class</span>=<span class="string">&quot;list&quot;</span>&gt;</span><br><span class="line">   </span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;./http.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&lt;script&gt;</span><br><span class="line">    let listDom = document.querySelector(&#x27;.list&#x27;)</span><br><span class="line">    let data = [];</span><br><span class="line">    // 请求用户的列表</span><br><span class="line">    http.get(&#x27;/list&#x27;,(res)=&gt;&#123;</span><br><span class="line">   </span><br><span class="line">         data= res.data</span><br><span class="line">        //循环数组  拿到id 请求对应的username 更新到data里面</span><br><span class="line">  </span><br><span class="line">        for(let i=0;i&lt;data.length;i++)&#123;</span><br><span class="line">            http.post(&#x27;/info&#x27;,&#123;id:data[i].id&#125;,(res1)=&gt;&#123;</span><br><span class="line">               data[i].username = res1.data.username</span><br><span class="line">               //请求头像</span><br><span class="line">               let formData = &#123;id:data[i].id,username: data[i].username&#125;</span><br><span class="line">               http.post(&#x27;/avatar&#x27;,formData,(res2)=&gt;&#123;</span><br><span class="line">                        data[i].avatar = res2.data.avatar; </span><br><span class="line">                      </span><br><span class="line">                       //将最新数据 拼接dom输出到页面 </span><br><span class="line">                       listDom.innerHTML+=`</span><br><span class="line">                           &lt;div class=&quot;item&quot;&gt;</span><br><span class="line">                            &lt;div class=&quot;img&quot;&gt;</span><br><span class="line">                                &lt;img src=&quot;$&#123;data[i].avatar&#125;&quot; alt=&quot;&quot;&gt;</span><br><span class="line">                            &lt;/div&gt;</span><br><span class="line">                            &lt;div class=&quot;info&quot;&gt;</span><br><span class="line">                                &lt;div class=&quot;id&quot;&gt;</span><br><span class="line">                                    用户编号：$&#123;data[i].id&#125;</span><br><span class="line">                                &lt;/div&gt;</span><br><span class="line">                                &lt;div class=&quot;name&quot;&gt;</span><br><span class="line">                                    用户名字：$&#123;data[i].username&#125;</span><br><span class="line">                                &lt;/div&gt;</span><br><span class="line">                            &lt;/div&gt;</span><br><span class="line">                        &lt;/div&gt;                </span><br><span class="line">                        `;</span><br><span class="line">               &#125;)</span><br><span class="line">                </span><br><span class="line">            &#125;)</span><br><span class="line">        &#125;  </span><br><span class="line">    &#125;)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h3 id="3-回调地狱"><a href="#3-回调地狱" class="headerlink" title="3.回调地狱"></a>3.回调地狱</h3><blockquote>
-<p>多个回调函数的嵌套，超过3级 形成回调地狱 【代码的可读性极低】</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">http.<span class="title function_">get</span>(<span class="string">&#x27;/list&#x27;</span>,<span class="function">(<span class="params">res</span>)=&gt;</span>&#123;</span><br><span class="line">          data= res.<span class="property">data</span></span><br><span class="line">         <span class="comment">//循环数组  拿到id 请求对应的username 更新到data里面</span></span><br><span class="line">         <span class="keyword">for</span>(<span class="keyword">let</span> i=<span class="number">0</span>;i&lt;data.<span class="property">length</span>;i++)&#123;</span><br><span class="line">             http.<span class="title function_">post</span>(<span class="string">&#x27;/info&#x27;</span>,&#123;<span class="attr">id</span>:data[i].<span class="property">id</span>&#125;,<span class="function">(<span class="params">res1</span>)=&gt;</span>&#123;</span><br><span class="line">                data[i].<span class="property">username</span> = res1.<span class="property">data</span>.<span class="property">username</span></span><br><span class="line">                <span class="comment">//请求头像</span></span><br><span class="line">                <span class="keyword">let</span> formData = &#123;<span class="attr">id</span>:data[i].<span class="property">id</span>,<span class="attr">username</span>: res1.<span class="property">data</span>.<span class="property">username</span>&#125;</span><br><span class="line">                http.<span class="title function_">post</span>(<span class="string">&#x27;/avatar&#x27;</span>,formData,<span class="function">(<span class="params">res2</span>)=&gt;</span>&#123;</span><br><span class="line">                         data[i].<span class="property">avatar</span> = res2.<span class="property">data</span>.<span class="property">avatar</span>; </span><br><span class="line">                       </span><br><span class="line">                        <span class="comment">//将最新数据 拼接dom输出到页面 </span></span><br><span class="line">                        listDom.<span class="property">innerHTML</span>+=<span class="string">`</span></span><br><span class="line"><span class="string">                            &lt;div class=&quot;item&quot;&gt;</span></span><br><span class="line"><span class="string">                             &lt;div class=&quot;img&quot;&gt;</span></span><br><span class="line"><span class="string">                                 &lt;img src=&quot;<span class="subst">$&#123;data[i].avatar&#125;</span>&quot; alt=&quot;&quot;&gt;</span></span><br><span class="line"><span class="string">                             &lt;/div&gt;</span></span><br><span class="line"><span class="string">                             &lt;div class=&quot;info&quot;&gt;</span></span><br><span class="line"><span class="string">                                 &lt;div class=&quot;id&quot;&gt;</span></span><br><span class="line"><span class="string">                                     用户编号：<span class="subst">$&#123;data[i].id&#125;</span></span></span><br><span class="line"><span class="string">                                 &lt;/div&gt;</span></span><br><span class="line"><span class="string">                                 &lt;div class=&quot;name&quot;&gt;</span></span><br><span class="line"><span class="string">                                     用户名字：<span class="subst">$&#123;data[i].username&#125;</span></span></span><br><span class="line"><span class="string">                                 &lt;/div&gt;</span></span><br><span class="line"><span class="string">                             &lt;/div&gt;</span></span><br><span class="line"><span class="string">                         &lt;/div&gt;                </span></span><br><span class="line"><span class="string">                         `</span>;</span><br><span class="line">                &#125;)</span><br><span class="line">             &#125;)</span><br><span class="line">         &#125;  </span><br><span class="line">     &#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="3-promise-解决回调地狱问题"><a href="#3-promise-解决回调地狱问题" class="headerlink" title="3.promise 解决回调地狱问题"></a>3.promise 解决回调地狱问题</h2><blockquote>
-<p>三个： </p>
-<p>pending  等待</p>
-<p>fufailled  resolve  成功  </p>
-<p>rejected   reject    失败</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//1s 之后 通过promise 返回  这个数字   默认pending</span></span><br><span class="line"><span class="comment">// 偶数:是偶数 promise 成功状态</span></span><br><span class="line"><span class="comment">// 奇数：是奇数 promise 失败状态</span></span><br><span class="line"><span class="keyword">let</span> num =<span class="number">100</span></span><br><span class="line"> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="keyword">function</span>(<span class="params">resolve,reject</span>)&#123;</span><br><span class="line">        <span class="built_in">setTimeout</span>(<span class="function">()=&gt;</span>&#123;</span><br><span class="line">                <span class="keyword">if</span>(num%<span class="number">2</span> ==<span class="number">0</span>)&#123;</span><br><span class="line">                    <span class="title function_">resolve</span>(<span class="string">&#x27;是偶数&#x27;</span>)</span><br><span class="line">                &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                    <span class="title function_">reject</span>(<span class="string">&#x27;是奇数&#x27;</span>)</span><br><span class="line">                &#125;</span><br><span class="line">        &#125;,<span class="number">1000</span>)</span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params">res</span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(res);  </span><br><span class="line">&#125;).<span class="title function_">catch</span>(<span class="keyword">function</span>(<span class="params">err</span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(err); </span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//1s 之后 通过promise 返回  这个数字   默认pending</span></span><br><span class="line"><span class="comment">// 偶数:是偶数 promise 成功状态</span></span><br><span class="line"><span class="comment">// 奇数：是奇数 promise 失败状态</span></span><br><span class="line"><span class="keyword">let</span> num =<span class="number">101</span></span><br><span class="line"><span class="keyword">let</span> p = <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="keyword">function</span>(<span class="params">resolve,reject</span>)&#123;</span><br><span class="line">        <span class="built_in">setTimeout</span>(<span class="function">()=&gt;</span>&#123;</span><br><span class="line">                <span class="keyword">if</span>(num%<span class="number">2</span> ==<span class="number">0</span>)&#123;</span><br><span class="line">                    <span class="title function_">resolve</span>(<span class="string">&#x27;是偶数&#x27;</span>)</span><br><span class="line">                &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                    <span class="title function_">reject</span>(<span class="string">&#x27;是奇数&#x27;</span>)</span><br><span class="line">                &#125;</span><br><span class="line">        &#125;,<span class="number">1000</span>)</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">//成功后自动执行then 调用了resolve 自动走 then </span></span><br><span class="line">p.<span class="title function_">then</span>(<span class="keyword">function</span>(<span class="params">res</span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(res);  </span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">//失败后自动执行catch 调用了reject 自动走 catch</span></span><br><span class="line">p.<span class="title function_">catch</span>(<span class="keyword">function</span>(<span class="params">err</span>)&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(err);</span><br><span class="line">    </span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-
-<h2 id="4-promise-的then-的链式调用"><a href="#4-promise-的then-的链式调用" class="headerlink" title="4.promise 的then 的链式调用"></a>4.promise 的then 的链式调用</h2><blockquote>
-<p>promise 的 then链式调用 可以解决ajax 的回调地狱</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">p.<span class="title function_">then</span>(<span class="function"><span class="params">res</span>=&gt;</span>&#123;&#125;).<span class="title function_">then</span>(<span class="function"><span class="params">res1</span>=&gt;</span>&#123;&#125;).<span class="title function_">then</span>(<span class="function"><span class="params">res2</span>=&gt;</span>&#123;&#125;)</span><br><span class="line"><span class="comment">//链式then的调用共计3次  ===&gt; 一共调用了 三次 reslove ===&gt; 三个promise </span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>ajax 请求的三次接口</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> data = &#123;&#125;;</span><br><span class="line">   http.<span class="title function_">get</span>(<span class="string">&#x27;/list&#x27;</span>,<span class="function"><span class="params">res</span>=&gt;</span>&#123;</span><br><span class="line">       data = res.<span class="property">data</span>;</span><br><span class="line">       http.<span class="title function_">post</span>(<span class="string">&#x27;/info&#x27;</span>,&#123;<span class="attr">id</span>:res.<span class="property">data</span>.<span class="property">id</span>&#125;,<span class="function"><span class="params">res1</span>=&gt;</span>&#123;</span><br><span class="line">           http.<span class="title function_">post</span>(<span class="string">&#x27;/avatar&#x27;</span>,&#123;<span class="attr">id</span>:res1.<span class="property">data</span>.<span class="property">id</span>,<span class="attr">username</span>:res1.<span class="property">data</span>.<span class="property">username</span>&#125;,<span class="function"><span class="params">res2</span>=&gt;</span>&#123;</span><br><span class="line">               data.<span class="property">username</span> = res2.<span class="property">data</span>.<span class="property">username</span>;</span><br><span class="line">               data.<span class="property">avatar</span> = res2.<span class="property">data</span>.<span class="property">avatar</span>;</span><br><span class="line">               <span class="variable language_">console</span>.<span class="title function_">log</span>(data);</span><br><span class="line">           &#125;)</span><br><span class="line">       &#125;)</span><br><span class="line">   &#125;)</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve,reject</span>)=&gt;</span>&#123;</span><br><span class="line">          http.<span class="title function_">get</span>(<span class="string">&#x27;/list&#x27;</span>,<span class="function"><span class="params">res</span>=&gt;</span>&#123;</span><br><span class="line">              data = res.<span class="property">data</span>;</span><br><span class="line">              <span class="title function_">resolve</span>(res)</span><br><span class="line">          &#125;)</span><br><span class="line">      &#125;).<span class="title function_">then</span>(<span class="function"><span class="params">res</span>=&gt;</span>&#123;</span><br><span class="line">          <span class="keyword">return</span>  <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve,reject</span>)=&gt;</span>&#123;</span><br><span class="line">              http.<span class="title function_">post</span>(<span class="string">&#x27;/info&#x27;</span>,&#123;<span class="attr">id</span>:res.<span class="property">data</span>.<span class="property">id</span>&#125;,<span class="function"><span class="params">res1</span>=&gt;</span>&#123;</span><br><span class="line">                  <span class="title function_">resolve</span>(res1)</span><br><span class="line">              &#125;)</span><br><span class="line">          &#125;)</span><br><span class="line">      &#125;).<span class="title function_">then</span>(<span class="function"><span class="params">res1</span>=&gt;</span>&#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve,reject</span>)=&gt;</span>&#123;</span><br><span class="line">              http.<span class="title function_">post</span>(<span class="string">&#x27;/avatar&#x27;</span>,&#123;<span class="attr">id</span>:res1.<span class="property">data</span>.<span class="property">id</span>,<span class="attr">username</span>:res1.<span class="property">data</span>.<span class="property">username</span>&#125;,<span class="function"><span class="params">res2</span>=&gt;</span>&#123;</span><br><span class="line">                  <span class="title function_">resolve</span>(res2)</span><br><span class="line">              &#125;)</span><br><span class="line">          &#125;)</span><br><span class="line">      &#125;).<span class="title function_">then</span>(<span class="function"><span class="params">res2</span>=&gt;</span>&#123;</span><br><span class="line">          <span class="variable language_">console</span>.<span class="title function_">log</span>(res2);</span><br><span class="line">          data.<span class="property">avatar</span> = res2.<span class="property">data</span>.<span class="property">avatar</span>;</span><br><span class="line">          data.<span class="property">username</span> = res2.<span class="property">data</span>.<span class="property">username</span></span><br><span class="line">      &#125;)</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="5-简化代码-，提炼公共部分代码-形成代码的封装"><a href="#5-简化代码-，提炼公共部分代码-形成代码的封装" class="headerlink" title="5.简化代码 ，提炼公共部分代码 形成代码的封装"></a>5.简化代码 ，提炼公共部分代码 形成代码的封装</h2><blockquote>
-<p>复写axios.js </p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> base_url = <span class="string">&#x27;http://8.137.157.16:9004&#x27;</span></span><br><span class="line"><span class="keyword">const</span> http = &#123;</span><br><span class="line">    <span class="title function_">get</span>(<span class="params">url</span>)&#123;</span><br><span class="line">      <span class="keyword">let</span> p =  <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve,reject</span>)=&gt;</span>&#123;</span><br><span class="line">            <span class="keyword">let</span> xhr = <span class="keyword">new</span> <span class="title class_">XMLHttpRequest</span>();</span><br><span class="line">            xhr.<span class="title function_">open</span>(<span class="string">&#x27;get&#x27;</span>,base_url+url);</span><br><span class="line">            xhr.<span class="title function_">send</span>()</span><br><span class="line">            xhr.<span class="property">onreadystatechange</span> = <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">                <span class="keyword">if</span>(xhr.<span class="property">readyState</span> ==<span class="number">4</span> &amp;&amp; xhr.<span class="property">status</span>==<span class="number">200</span>)&#123;</span><br><span class="line">                    <span class="title function_">resolve</span>(<span class="title class_">JSON</span>.<span class="title function_">parse</span>(xhr.<span class="property">responseText</span>))</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">        <span class="keyword">return</span> p;</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="title function_">post</span>(<span class="params">url,data</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve,reject</span>)=&gt;</span>&#123;</span><br><span class="line">            <span class="keyword">let</span> xhr = <span class="keyword">new</span> <span class="title class_">XMLHttpRequest</span>();</span><br><span class="line">            xhr.<span class="title function_">open</span>(<span class="string">&#x27;post&#x27;</span>,base_url+url);</span><br><span class="line">        	xhr.<span class="title function_">setRequestHeader</span>(<span class="string">&#x27;content-type&#x27;</span>,<span class="string">&#x27;application/json&#x27;</span>)</span><br><span class="line">            xhr.<span class="title function_">send</span>(<span class="title class_">JSON</span>.<span class="title function_">stringify</span>(data))</span><br><span class="line">            xhr.<span class="property">onreadystatechange</span> = <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">                <span class="keyword">if</span>(xhr.<span class="property">readyState</span> ==<span class="number">4</span> &amp;&amp; xhr.<span class="property">status</span>==<span class="number">200</span>)&#123;</span><br><span class="line">                   <span class="title function_">resolve</span>(<span class="title class_">JSON</span>.<span class="title function_">parse</span>(xhr.<span class="property">responseText</span>))</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">    &#125;,</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">window</span>.<span class="property">http</span> = http;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">http.<span class="title function_">get</span>(<span class="string">&#x27;/list&#x27;</span>)</span><br><span class="line">    .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> http.<span class="title function_">post</span>(<span class="string">&#x27;/info&#x27;</span>, &#123; <span class="attr">id</span>: res.<span class="property">data</span>.<span class="property">id</span> &#125;)</span><br><span class="line">    &#125;).<span class="title function_">then</span>(<span class="function"><span class="params">res1</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> http.<span class="title function_">post</span>(<span class="string">&#x27;/avatar&#x27;</span>, &#123; <span class="attr">id</span>: res1.<span class="property">data</span>.<span class="property">id</span>, <span class="attr">username</span>: res1.<span class="property">data</span>.<span class="property">username</span> &#125;)</span><br><span class="line">    &#125;).<span class="title function_">then</span>(<span class="function"><span class="params">res2</span> =&gt;</span> &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(res2);</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
-
-<h2 id="6-axios-的使用与原理"><a href="#6-axios-的使用与原理" class="headerlink" title="6.axios 的使用与原理"></a>6.axios 的使用与原理</h2><blockquote>
-<p>promise+ajax（XMLHttpReqeust）</p>
-</blockquote>
-<ul>
-<li>找axios的中文网</li>
-<li>下载axios.js    <code>bootcdn</code> 下载</li>
-</ul>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"> <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;./axios.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">let</span> data = &#123;&#125;;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="comment">// 统一服务器地址</span></span></span><br><span class="line"><span class="language-javascript">    axios.<span class="property">defaults</span>.<span class="property">baseURL</span> = <span class="string">&#x27;http://8.137.157.16:9004&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    axios.<span class="title function_">get</span>(<span class="string">&#x27;/list&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">        .<span class="title function_">then</span>(<span class="function"><span class="params">res</span> =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="variable language_">console</span>.<span class="title function_">log</span>(res);</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">return</span> axios.<span class="title function_">post</span>(<span class="string">&#x27;/info&#x27;</span>, &#123; <span class="attr">id</span>: res.<span class="property">data</span>.<span class="property">data</span>.<span class="property">id</span> &#125;)</span></span><br><span class="line"><span class="language-javascript">        &#125;).<span class="title function_">then</span>(<span class="function"><span class="params">res1</span> =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">return</span> axios.<span class="title function_">post</span>(<span class="string">&#x27;/avatar&#x27;</span>, &#123; <span class="attr">id</span>: res1.<span class="property">data</span>.<span class="property">data</span>.<span class="property">id</span>, <span class="attr">username</span>: res1.<span class="property">data</span>.<span class="property">data</span>.<span class="property">username</span> &#125;)</span></span><br><span class="line"><span class="language-javascript">        &#125;).<span class="title function_">then</span>(<span class="function"><span class="params">res2</span> =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="variable language_">console</span>.<span class="title function_">log</span>(res2.<span class="property">data</span>);</span></span><br><span class="line"><span class="language-javascript">        &#125;)</span></span><br><span class="line"><span class="language-javascript"></span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>http.js 封装</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> base_url = <span class="string">&#x27;http://8.137.157.16:9004&#x27;</span></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">http</span> = (<span class="params">obj</span>)=&gt;&#123;</span><br><span class="line">    <span class="keyword">let</span> &#123;method,url,data,responseType&#125; = obj;</span><br><span class="line">    <span class="keyword">if</span>(method==<span class="string">&#x27;get&#x27;</span>)&#123;</span><br><span class="line">      <span class="keyword">return</span>  http.<span class="title function_">get</span>(url)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(method==<span class="string">&#x27;post&#x27;</span>)&#123;</span><br><span class="line">        <span class="keyword">let</span> type = responseType==<span class="number">0</span>?<span class="string">&#x27;application/json&#x27;</span>:<span class="string">&#x27;application/x-www-form-urlencoded&#x27;</span></span><br><span class="line">       <span class="keyword">return</span> http.<span class="title function_">post</span>(url,data,type)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">http.<span class="property">get</span> = <span class="function">(<span class="params">url</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="keyword">let</span> p =  <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve,reject</span>)=&gt;</span>&#123;</span><br><span class="line">        <span class="keyword">let</span> xhr = <span class="keyword">new</span> <span class="title class_">XMLHttpRequest</span>();</span><br><span class="line">        </span><br><span class="line">        xhr.<span class="title function_">open</span>(<span class="string">&#x27;get&#x27;</span>,base_url+url);</span><br><span class="line">        xhr.<span class="title function_">send</span>()</span><br><span class="line">        xhr.<span class="property">onreadystatechange</span> = <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span>(xhr.<span class="property">readyState</span> ==<span class="number">4</span> &amp;&amp; xhr.<span class="property">status</span>==<span class="number">200</span>)&#123;</span><br><span class="line">                <span class="title function_">resolve</span>(<span class="title class_">JSON</span>.<span class="title function_">parse</span>(xhr.<span class="property">responseText</span>))</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">return</span> p;</span><br><span class="line">&#125;</span><br><span class="line">http.<span class="property">post</span> = <span class="function">(<span class="params">url,data,responseType=<span class="string">&#x27;application/json&#x27;</span></span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve,reject</span>)=&gt;</span>&#123;</span><br><span class="line">        <span class="keyword">let</span> xhr = <span class="keyword">new</span> <span class="title class_">XMLHttpRequest</span>();</span><br><span class="line">        xhr.<span class="title function_">open</span>(<span class="string">&#x27;post&#x27;</span>,base_url+url);</span><br><span class="line">        xhr.<span class="title function_">setRequestHeader</span>(<span class="string">&#x27;content-type&#x27;</span>,responseType)</span><br><span class="line">        xhr.<span class="title function_">send</span>(<span class="title class_">JSON</span>.<span class="title function_">stringify</span>(data))</span><br><span class="line">        xhr.<span class="property">onreadystatechange</span> = <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">            <span class="keyword">if</span>(xhr.<span class="property">readyState</span> ==<span class="number">4</span> &amp;&amp; xhr.<span class="property">status</span>==<span class="number">200</span>)&#123;</span><br><span class="line">               <span class="title function_">resolve</span>(<span class="title class_">JSON</span>.<span class="title function_">parse</span>(xhr.<span class="property">responseText</span>))</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">window</span>.<span class="property">http</span> = http;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="7-浏览器事件循环机制-event-loop"><a href="#7-浏览器事件循环机制-event-loop" class="headerlink" title="7. 浏览器事件循环机制  event loop"></a>7. 浏览器事件循环机制  event loop</h2><blockquote>
-<p>同步 异步的深入研究</p>
-<p>代码执行顺序  </p>
-</blockquote>
-<blockquote>
-<p>定时器 延时器</p>
-<p>ajax  事件</p>
-<p>promise</p>
-</blockquote>
-<h3 id="1-promise-是异步吗？"><a href="#1-promise-是异步吗？" class="headerlink" title="1.promise  是异步吗？"></a>1.promise  是异步吗？</h3><blockquote>
-<p>promise 本身不是异步，  promise.then 方法是异步</p>
-</blockquote>
-<h2 id="2-同步和-异步问题"><a href="#2-同步和-异步问题" class="headerlink" title="2.同步和 异步问题"></a>2.同步和 异步问题</h2><blockquote>
-<p>先执行所有的同步  再 执行异步</p>
-</blockquote>
-<h2 id="3-浏览器事件循环机制"><a href="#3-浏览器事件循环机制" class="headerlink" title="3.浏览器事件循环机制"></a>3.浏览器事件循环机制</h2><blockquote>
-<p>代码执行顺序： </p>
-<p>遵循 <code>从上至下 从左至右</code> 依次执行。</p>
-<p>异步代码： 宏任务(定时器 延时器 ajax  事件)          微任务 promise.then </p>
-<p>如果微任务和 宏任务在同一个异步层级，先执行 所有的微任务 再执行宏任务</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">   </span><br><span class="line">   <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">resolve,reject</span>)=&gt;</span>&#123;</span><br><span class="line">       <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">3</span>);</span><br><span class="line">     </span><br><span class="line">       <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">5</span>);</span><br><span class="line">       <span class="title function_">resolve</span>()</span><br><span class="line">   &#125;).<span class="title function_">then</span>(<span class="function"><span class="params">_</span>=&gt;</span>&#123;</span><br><span class="line">       <span class="built_in">setTimeout</span>(<span class="function">()=&gt;</span>&#123;</span><br><span class="line">           <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">4</span>);</span><br><span class="line">       &#125;,<span class="number">0</span>)</span><br><span class="line">       <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">6</span>); </span><br><span class="line"></span><br><span class="line">   &#125;)</span><br><span class="line">   <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">7</span>);</span><br><span class="line"></span><br><span class="line">   </span><br><span class="line">   <span class="built_in">setTimeout</span>(<span class="function">()=&gt;</span>&#123;</span><br><span class="line">       <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">2</span>);</span><br><span class="line">       </span><br><span class="line">   &#125;,<span class="number">0</span>)</span><br><span class="line">   </span><br><span class="line">   <span class="comment">// 1  3 5 7  6 2 4 </span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="面试题："><a href="#面试题：" class="headerlink" title="面试题："></a>面试题：</h2><h4 id="1-你对回调地狱的理解？"><a href="#1-你对回调地狱的理解？" class="headerlink" title="1.你对回调地狱的理解？"></a>1.你对回调地狱的理解？</h4><h3 id="2-如何解决回调地狱？"><a href="#2-如何解决回调地狱？" class="headerlink" title="2.如何解决回调地狱？"></a>2.如何解决回调地狱？</h3><h3 id="3-event-loop-浏览器事件循环机制-（关于同步异步代码的执行顺序）？"><a href="#3-event-loop-浏览器事件循环机制-（关于同步异步代码的执行顺序）？" class="headerlink" title="3.event loop  浏览器事件循环机制 （关于同步异步代码的执行顺序）？"></a>3.event loop  浏览器事件循环机制 （关于同步异步代码的执行顺序）？</h3><h3 id="4-promise-是异步还是同步？"><a href="#4-promise-是异步还是同步？" class="headerlink" title="4.promise 是异步还是同步？"></a>4.promise 是异步还是同步？</h3><h3 id="5-宏任务和微任务的区别-分别有哪些？"><a href="#5-宏任务和微任务的区别-分别有哪些？" class="headerlink" title="5.宏任务和微任务的区别 分别有哪些？"></a>5.宏任务和微任务的区别 分别有哪些？</h3><p>async  await   promise 内置方法  all race  </p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/06/14/1-%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%A4%A7%E5%B1%8F-%E5%B1%8F%E5%B9%95%E5%85%BC%E5%AE%B9%E5%A4%84%E7%90%86/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="AnnieYang">
-      <meta itemprop="description" content="有时候努力比选择重要">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Y.moon">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2025/06/14/1-%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%A4%A7%E5%B1%8F-%E5%B1%8F%E5%B9%95%E5%85%BC%E5%AE%B9%E5%A4%84%E7%90%86/" class="post-title-link" itemprop="url">未命名</a>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2025-06-14
+    </p>
+</div>
+<hr>
+            
+                <div class="post-preview">
+    <a href="/2025/06/14/1-数据可视化大屏-屏幕兼容处理/">
+        <h2 class="post-title">
+            Untitled
         </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2025-06-14 12:41:58" itemprop="dateCreated datePublished" datetime="2025-06-14T12:41:58+08:00">2025-06-14</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-06-06 17:40:37" itemprop="dateModified" datetime="2025-06-06T17:40:37+08:00">2025-06-06</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="屏幕兼容处理与移动端兼容-可视化大屏"><a href="#屏幕兼容处理与移动端兼容-可视化大屏" class="headerlink" title="屏幕兼容处理与移动端兼容|可视化大屏"></a>屏幕兼容处理与移动端兼容|可视化大屏</h2><ul>
-<li>自适应 与 响应式布局的区别  –通过js实现</li>
-<li>关于移动端开发的兼容方案</li>
-<li>关于大屏幕开发的兼容方案</li>
-</ul>
-<h2 id="1-自适应-与响应式布局"><a href="#1-自适应-与响应式布局" class="headerlink" title="1.自适应  与响应式布局"></a>1.自适应  与响应式布局</h2><blockquote>
-<p>自适应： 通过css方式，能够达到：不同设备显示相同效果   </p>
-<p>​                  优点： 只需要写一套css        缺点： 网页中文字只能缩小到12px  继续缩小也没有效果了，盒子内容溢出 导致页面混乱。    现在谷歌支持小于12px, 文字太小，用户看不到</p>
-<p>响应式 ：通过 css 监听或控制页面 根据   不同设备显示不同效果</p>
-<p>​	            优点：不同设备 的 样式显示比较好看          缺点：需要多套css样式</p>
-</blockquote>
-<h2 id="2-移动端兼容方法"><a href="#2-移动端兼容方法" class="headerlink" title="2.移动端兼容方法"></a>2.移动端兼容方法</h2><h3 id="2-1-流式布局-【自适应】"><a href="#2-1-流式布局-【自适应】" class="headerlink" title="2.1 流式布局 -【自适应】"></a>2.1 流式布局 -【自适应】</h3><blockquote>
-<p>所有盒子的宽 高间距 尽量使用 百分比    文字大小都用百分比</p>
-</blockquote>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.box</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>:<span class="number">100%</span>;</span><br><span class="line">	<span class="attribute">height</span>:<span class="number">100%</span>;  //父盒子先用具体高度</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.box1</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>:<span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">height</span>:<span class="number">40%</span>;</span><br><span class="line">    fontsize:<span class="number">100%</span>;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="2-2-自适应方案-2：-rem-em-rpx"><a href="#2-2-自适应方案-2：-rem-em-rpx" class="headerlink" title="2.2 自适应方案 2：   rem em   rpx"></a>2.2 自适应方案 2：   rem em   rpx</h3><blockquote>
-<p>动态html body 的fontsize    实现rem单位自动 缩放  </p>
-<p>根据屏幕宽高  动态计算   html body 标签的字体大小，所有盒子 高 宽   字体大小 间距 都是用rem 单位</p>
-</blockquote>
-<blockquote>
-<p>使用场景：</p>
-<p>屏幕大小变动不大，推荐：只做 移动端兼容 ，或 只做pc兼容，</p>
-<p>同时兼容横屏 竖屏 不推荐这种方式</p>
-</blockquote>
-<ul>
-<li>自适应方案3： rpx</li>
-</ul>
-<blockquote>
-<p>原理：  1px &#x3D;&#x3D;2rpx     基准屏幕宽度为375px </p>
-<p>​               1px &#x3D;&#x3D;1rpx                         当前屏幕为750px</p>
-</blockquote>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.box</span>&#123;</span><br><span class="line">    <span class="attribute">width</span>:<span class="number">10</span>rpx;         //如果是<span class="number">375</span>屏幕      <span class="number">5px</span>       屏幕：<span class="number">750</span>  ===&gt;<span class="number">10px</span></span><br><span class="line">    hegiht:<span class="number">10</span>rpx;        </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title function_">resize</span> =(<span class="params"></span>)=&gt;&#123;</span><br><span class="line">           <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;resize，屏幕发生了改变&#x27;</span>);</span><br><span class="line">           <span class="comment">// 获取当前的屏幕宽高</span></span><br><span class="line">           <span class="keyword">let</span> width = <span class="variable language_">document</span>.<span class="property">documentElement</span>.<span class="property">clientWidth</span>;</span><br><span class="line">           <span class="comment">// 屏幕基准值: 你当前屏幕 相对之前写死的值 是放大了 还是缩小了</span></span><br><span class="line">           <span class="comment">//    800px  ===&gt;  10px      推算： 1000px===&gt;12px     公式： 当前屏幕宽度/基准宽度 *盒子原宽度</span></span><br><span class="line">           <span class="comment">//   1920px 屏幕基准值  ==&gt; 72px*72px   10000px  ==&gt;  10000/1920 *72 ==375px *375px</span></span><br><span class="line">           </span><br><span class="line">           <span class="keyword">let</span> fs = width/<span class="number">375</span>*<span class="number">10</span></span><br><span class="line">           <span class="variable language_">console</span>.<span class="title function_">log</span>(fs);</span><br><span class="line">           <span class="variable language_">document</span>.<span class="property">documentElement</span>.<span class="property">style</span>.<span class="property">fontSize</span> = fs + <span class="string">&#x27;px&#x27;</span></span><br><span class="line">       &#125;</span><br><span class="line">       <span class="title function_">resize</span>()</span><br><span class="line">       </span><br><span class="line">       </span><br><span class="line">       <span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;resize&#x27;</span>,resize)</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-<blockquote>
-<p>rem：相对页面根节点的 fontsize  的 相对单位    </p>
-<p>​             例：【谷歌浏览器 html生效】 html   body  fontsize &#x3D;&#x3D;20px             1rem &#x3D;&#x3D;20px  </p>
-<p>em:  1个字体单位  父盒子的fontsize 大小</p>
-<p>​           例如： 父盒子的fontsize &#x3D; 30px        1em &#x3D;&#x3D;30px</p>
-<p>rpx  ：就是微信小程序官方 提供的 rem 的进阶版</p>
-</blockquote>
-<p>问题： 流式布局 解决了 盒子宽高 间距 根据屏幕大小自动变化的问题，但没有解决字体大小变化的问题</p>
-<ul>
-<li>通过 设置 html ，body标签的fontsize  实现rem的字体的相对单位</li>
-<li>因为html body 固定的fangsize  导致  rem 也变成了固定值</li>
-<li>html body的 fontsize  跟随 屏幕的宽高 变化 而进行变化【必须使用js  监听屏幕宽高改变】</li>
-</ul>
-<h3 id="2-3-方案3-：-利用淘宝的-flexible-js-实现方案2的效果"><a href="#2-3-方案3-：-利用淘宝的-flexible-js-实现方案2的效果" class="headerlink" title="2.3 方案3 ： 利用淘宝的 flexible.js   实现方案2的效果"></a>2.3 方案3 ： 利用淘宝的 flexible.js   实现方案2的效果</h3><h3 id="2-4-方案4：-基于-前端工程化项目的插件-postcss-px2rem-实现方案2的效果"><a href="#2-4-方案4：-基于-前端工程化项目的插件-postcss-px2rem-实现方案2的效果" class="headerlink" title="2.4 方案4：  基于 前端工程化项目的插件    postcss-px2rem     实现方案2的效果"></a>2.4 方案4：  基于 前端工程化项目的插件    <code>postcss-px2rem</code>     实现方案2的效果</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">https</span>:<span class="comment">//blog.csdn.net/qq_54527592/article/details/120249040</span></span><br><span class="line"> vite 配置postcss  </span><br><span class="line"> taro vite 配置postcss  </span><br></pre></td></tr></table></figure>
-
-
-
-<ul>
-<li>项目安装 <code>postcss-px2rem</code></li>
-</ul>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm install  postcss-px2rem  amfe-flexible </span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>配置vite</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// vite.config.js 或 vite.config.ts</span></span><br><span class="line"><span class="keyword">import</span> &#123; defineConfig &#125; <span class="keyword">from</span> <span class="string">&#x27;vite&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> px2rem <span class="keyword">from</span> <span class="string">&#x27;postcss-px2rem&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="title function_">defineConfig</span>(&#123;</span><br><span class="line">  <span class="attr">css</span>: &#123;</span><br><span class="line">    <span class="attr">postcss</span>: &#123;</span><br><span class="line">      <span class="attr">plugins</span>: [</span><br><span class="line">        <span class="title function_">px2rem</span>(&#123;</span><br><span class="line">          <span class="comment">// 配置 px2rem 的选项</span></span><br><span class="line">          <span class="attr">rootValue</span>: <span class="number">37.5</span>, <span class="comment">// 设计稿宽度 / 10，例如设计稿为 375px 则设置为 37.5</span></span><br><span class="line">          <span class="attr">unitPrecision</span>: <span class="number">5</span>, <span class="comment">// px 转换成 rem 的小数位数</span></span><br><span class="line">          <span class="attr">propList</span>: [<span class="string">&#x27;*&#x27;</span>], <span class="comment">// 需要进行转换的属性，&#x27;*&#x27; 表示全部属性</span></span><br><span class="line">          <span class="attr">selectorBlackList</span>: [], <span class="comment">// 需要忽略选择器的转换的正则表达式</span></span><br><span class="line">          <span class="attr">replace</span>: <span class="literal">true</span>, <span class="comment">// 是否替换原有的 px</span></span><br><span class="line">          <span class="attr">mediaQuery</span>: <span class="literal">false</span>, <span class="comment">// 是否允许在媒体查询中转换 px</span></span><br><span class="line">          <span class="attr">minPixelValue</span>: <span class="number">0</span> <span class="comment">// 小于或等于 minPixelValue 的 px 不进行转换</span></span><br><span class="line">        &#125;)</span><br><span class="line">      ]</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>main.jsx</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; <span class="title class_">StrictMode</span> &#125; <span class="keyword">from</span> <span class="string">&#x27;react&#x27;</span></span><br><span class="line"><span class="keyword">import</span> &#123; createRoot &#125; <span class="keyword">from</span> <span class="string">&#x27;react-dom/client&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;amfe-flexible&#x27;</span>   <span class="comment">//导入 插件 根据插件 实现 根据屏幕动态更改 html的fontsize  </span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;./index.css&#x27;</span></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">App</span> <span class="keyword">from</span> <span class="string">&#x27;./App.jsx&#x27;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h2 id="3-响应式布局"><a href="#3-响应式布局" class="headerlink" title="3.响应式布局"></a>3.响应式布局</h2><blockquote>
-<p>不同的设备 显示不同的效果（存在多套的css ）</p>
-</blockquote>
-<h3 id="3-1-媒体查询-–css解决方案-【掌握-记住语法-常见屏幕高宽】"><a href="#3-1-媒体查询-–css解决方案-【掌握-记住语法-常见屏幕高宽】" class="headerlink" title="3.1  媒体查询  –css解决方案-【掌握 记住语法 常见屏幕高宽】"></a>3.1  媒体查询  –css解决方案-【掌握 记住语法 常见屏幕高宽】</h3><blockquote>
-<p>优点：所有兼容处理方案 中 最完美的，可以按照 不同的屏幕宽度 加载不同的css样式   </p>
-<p>缺点：  一套样式需要重复写多次</p>
-</blockquote>
-<blockquote>
-<p>通过css 实现判断  当前的屏幕 需要使用 那一套 样式</p>
-</blockquote>
-<blockquote>
-<p>常见屏幕高宽:  </p>
-<p>移动端不要超过  </p>
-<p>iphone 5    320</p>
-<p>ihone 6-8     375</p>
-<p>ihone678s  XR   414 </p>
-<p>iphone 12    390</p>
-<p>iphone 14    430          </p>
-<p>ipad   768      700-800  </p>
-<p>pc：   1080    1920  </p>
-</blockquote>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 写一套默认样式 */</span></span><br><span class="line">      <span class="selector-class">.menu</span>&#123;</span><br><span class="line">          <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">          <span class="attribute">height</span>: <span class="number">60px</span>;</span><br><span class="line">          <span class="attribute">border-bottom</span>: <span class="number">1px</span> solid <span class="number">#ccc</span>;</span><br><span class="line">          <span class="attribute">display</span>: flex;</span><br><span class="line">          <span class="attribute">justify-content</span>: space-between;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="selector-class">.icon</span>&#123;</span><br><span class="line">          <span class="attribute">width</span>: <span class="number">50px</span>;</span><br><span class="line">          <span class="attribute">height</span>: <span class="number">60px</span>;</span><br><span class="line">          <span class="attribute">text-align</span>: center;</span><br><span class="line">          <span class="attribute">line-height</span>: <span class="number">60px</span>;</span><br><span class="line">          <span class="attribute">display</span>: none;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="selector-class">.title</span>&#123;</span><br><span class="line">          <span class="attribute">width</span>: <span class="number">200px</span>;</span><br><span class="line">          <span class="attribute">height</span>: <span class="number">60px</span>;</span><br><span class="line">          <span class="attribute">line-height</span>: <span class="number">60px</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="selector-class">.list</span>&#123;</span><br><span class="line">          <span class="attribute">display</span>: flex;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="selector-class">.item</span>&#123;</span><br><span class="line">          <span class="attribute">width</span>: <span class="number">80px</span>;</span><br><span class="line">          <span class="attribute">height</span>: <span class="number">60px</span>;</span><br><span class="line">          <span class="attribute">line-height</span>: <span class="number">60px</span>;</span><br><span class="line"></span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">      <span class="comment">/* 监听当前屏幕 的宽度 属性哪个范围 加载对应的css,对应css可以覆盖默认的样式 */</span></span><br><span class="line">      <span class="comment">/* 写的越多套  不同屏幕的样式   */</span></span><br><span class="line">          <span class="comment">/* 移动端  320以上 */</span></span><br><span class="line">       <span class="keyword">@media</span> screen <span class="keyword">and</span> (<span class="attribute">min-width</span>:<span class="number">320px</span>) &#123;</span><br><span class="line">          <span class="selector-class">.list</span>&#123;</span><br><span class="line">              <span class="attribute">display</span>: none;</span><br><span class="line">          &#125;</span><br><span class="line">          <span class="selector-class">.icon</span>&#123;</span><br><span class="line">              <span class="attribute">display</span>: block;</span><br><span class="line">          &#125;</span><br><span class="line">       &#125;   </span><br><span class="line"></span><br><span class="line">        <span class="comment">/* 平板 */</span></span><br><span class="line">       <span class="keyword">@media</span> screen <span class="keyword">and</span> (<span class="attribute">min-width</span>:<span class="number">700px</span>) <span class="keyword">and</span> (<span class="attribute">max-width</span>:<span class="number">900px</span>) &#123;</span><br><span class="line">           <span class="selector-class">.list</span>&#123;</span><br><span class="line">              <span class="attribute">display</span>: block;</span><br><span class="line">          &#125;</span><br><span class="line">          <span class="selector-class">.icon</span>&#123;</span><br><span class="line">              <span class="attribute">background</span>: <span class="number">#f44</span>;</span><br><span class="line">              <span class="attribute">display</span>: block;</span><br><span class="line">          &#125;</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">       <span class="comment">/* pc */</span></span><br><span class="line"></span><br><span class="line">       <span class="keyword">@media</span> screen <span class="keyword">and</span> (<span class="attribute">min-width</span>:<span class="number">900px</span>)&#123;</span><br><span class="line"></span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">          </span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>案例： </p>
-<p>pc上 盒子的高宽  400*450   背景色 为 #f44</p>
-<p>平板   盒子高宽  200*260   背景色位 blue  </p>
-<p>iphone6&#x2F;7&#x2F;8   盒子高宽 120*140  背景色 skyblue    外边距 20px</p>
-<p>iphone 12-14   盒子高宽 140*170  背景色为白色  外边框为1px的green 线条     内边距为10px</p>
-</blockquote>
-<h2 id="3-2-Ui框架实现响应式布局的方案"><a href="#3-2-Ui框架实现响应式布局的方案" class="headerlink" title="3.2 Ui框架实现响应式布局的方案"></a>3.2 Ui框架实现响应式布局的方案</h2><ul>
-<li>elemnt plus</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-row :gutter=&quot;10&quot;&gt;</span><br><span class="line">   &lt;el-col :xs=&quot;8&quot; :sm=&quot;6&quot; :md=&quot;4&quot; :lg=&quot;3&quot; :xl=&quot;1&quot;&gt;</span><br><span class="line">     &lt;div class=&quot;grid-content ep-bg-purple&quot; /&gt;</span><br><span class="line">   &lt;/el-col&gt;</span><br><span class="line">   &lt;el-col :xs=&quot;4&quot; :sm=&quot;6&quot; :md=&quot;8&quot; :lg=&quot;9&quot; :xl=&quot;11&quot;&gt;</span><br><span class="line">     &lt;div class=&quot;grid-content ep-bg-purple-light&quot; /&gt;</span><br><span class="line">   &lt;/el-col&gt;</span><br><span class="line">   &lt;el-col :xs=&quot;4&quot; :sm=&quot;6&quot; :md=&quot;8&quot; :lg=&quot;9&quot; :xl=&quot;11&quot;&gt;</span><br><span class="line">     &lt;div class=&quot;grid-content ep-bg-purple&quot; /&gt;</span><br><span class="line">   &lt;/el-col&gt;</span><br><span class="line">   &lt;el-col :xs=&quot;8&quot; :sm=&quot;6&quot; :md=&quot;4&quot; :lg=&quot;3&quot; :xl=&quot;1&quot;&gt;</span><br><span class="line">     &lt;div class=&quot;grid-content ep-bg-purple-light&quot; /&gt;</span><br><span class="line">   &lt;/el-col&gt;</span><br><span class="line"> &lt;/el-row&gt;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>antd</li>
-</ul>
-<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="title class_">Row</span>&gt;</span><br><span class="line">   <span class="language-xml"><span class="tag">&lt;<span class="name">Col</span> <span class="attr">xs</span>=<span class="string">&#123;2&#125;</span> <span class="attr">sm</span>=<span class="string">&#123;4&#125;</span> <span class="attr">md</span>=<span class="string">&#123;6&#125;</span> <span class="attr">lg</span>=<span class="string">&#123;8&#125;</span> <span class="attr">xl</span>=<span class="string">&#123;10&#125;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">     Col</span></span><br><span class="line"><span class="language-xml">   <span class="tag">&lt;/<span class="name">Col</span>&gt;</span></span></span><br><span class="line">   <span class="language-xml"><span class="tag">&lt;<span class="name">Col</span> <span class="attr">xs</span>=<span class="string">&#123;20&#125;</span> <span class="attr">sm</span>=<span class="string">&#123;16&#125;</span> <span class="attr">md</span>=<span class="string">&#123;12&#125;</span> <span class="attr">lg</span>=<span class="string">&#123;8&#125;</span> <span class="attr">xl</span>=<span class="string">&#123;4&#125;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">     Col</span></span><br><span class="line"><span class="language-xml">   <span class="tag">&lt;/<span class="name">Col</span>&gt;</span></span></span><br><span class="line">   <span class="language-xml"><span class="tag">&lt;<span class="name">Col</span> <span class="attr">xs</span>=<span class="string">&#123;2&#125;</span> <span class="attr">sm</span>=<span class="string">&#123;4&#125;</span> <span class="attr">md</span>=<span class="string">&#123;6&#125;</span> <span class="attr">lg</span>=<span class="string">&#123;8&#125;</span> <span class="attr">xl</span>=<span class="string">&#123;10&#125;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">     Col</span></span><br><span class="line"><span class="language-xml">   <span class="tag">&lt;/<span class="name">Col</span>&gt;</span></span></span><br><span class="line"> &lt;/<span class="title class_">Row</span>&gt;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="4-特殊处理：-专门做大屏的-整个缩放"><a href="#4-特殊处理：-专门做大屏的-整个缩放" class="headerlink" title="4.特殊处理： 专门做大屏的   整个缩放"></a>4.特殊处理： 专门做大屏的   整个缩放</h2><p>transform:scale(缩放倍数)</p>
-<blockquote>
-<p>假设 不清楚 甲方的 大屏幕 到底是多大       </p>
-<p>按照设计图进行 px 直接写，写完样式之后  进行 自适应 transform 缩放布局</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 基准值  1920*1080   x y  ==1</span></span><br><span class="line">  <span class="comment">//通过js 获取屏幕的宽高 当前宽/1920 = 2</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">resize</span> = (<span class="params"></span>)=&gt;&#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;111&#x27;</span>);</span><br><span class="line">      </span><br><span class="line">      <span class="comment">// 获取屏幕宽度</span></span><br><span class="line">      <span class="keyword">let</span> width = <span class="variable language_">document</span>.<span class="property">documentElement</span>.<span class="property">clientWidth</span>;</span><br><span class="line">         <span class="keyword">let</span> h = <span class="variable language_">document</span>.<span class="property">documentElement</span>.<span class="property">clientHeight</span>;</span><br><span class="line">      <span class="keyword">let</span> x = width/<span class="number">1920</span>;</span><br><span class="line">      <span class="keyword">let</span> y = h/<span class="number">1080</span></span><br><span class="line">      <span class="comment">// 可以根据屏幕缩放的比例 进行整个页面的缩放</span></span><br><span class="line">       <span class="variable language_">document</span>.<span class="property">documentElement</span>.<span class="property">style</span>.<span class="property">transform</span> = <span class="string">`scale(<span class="subst">$&#123;x&#125;</span>,<span class="subst">$&#123;y&#125;</span>)`</span></span><br><span class="line">      <span class="comment">//  缩放之后需要调整缩放的位置  有偏移量</span></span><br><span class="line">      <span class="variable language_">document</span>.<span class="property">documentElement</span>.<span class="property">style</span>.<span class="property">transformOrigin</span> = <span class="string">&#x27;50% 50%&#x27;</span></span><br><span class="line">       </span><br><span class="line">  &#125;</span><br><span class="line">  <span class="title function_">resize</span>()</span><br><span class="line">  <span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;resize&#x27;</span>,resize)</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="5-datav-可视化大屏框架-【推荐】"><a href="#5-datav-可视化大屏框架-【推荐】" class="headerlink" title="5.datav  可视化大屏框架-【推荐】"></a>5.datav  可视化大屏框架-【推荐】</h2><p>官网地址：<a target="_blank" rel="noopener" href="http://datav-react.jiaminghi.com/">http://datav-react.jiaminghi.com/</a></p>
-<h2 id="面试题"><a href="#面试题" class="headerlink" title="面试题"></a>面试题</h2><ul>
-<li><p>浏览器的字体大小  默认字体大小：16px      最小字体大小：12px-【如果小于12px 必须使用缩放 transform:scale    zoom,  现在浏览器已经支持 最小字体可以小于12px】 </p>
-</li>
-<li><p>自适应的方案：</p>
-<ul>
-<li>根据屏幕宽高  动态计算   html body 标签的字体大小，所有盒子 高 宽   字体大小 间距 都是用rem 单位</li>
-</ul>
-</li>
-</ul>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/11/15/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="AnnieYang">
-      <meta itemprop="description" content="有时候努力比选择重要">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Y.moon">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/11/15/hello-world/" class="post-title-link" itemprop="url">欢迎来到我的技术博客</a>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2025-06-14
+    </p>
+</div>
+<hr>
+            
+                <div class="post-preview">
+    <a href="/2023/11/15/hello-world/">
+        <h2 class="post-title">
+            欢迎来到我的技术博客
         </h2>
+        
+    </a>
+    <p class="post-meta">
+        <!-- Date and Author -->
+        
+        2023-11-15
+    </p>
+</div>
+<hr>
+            
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2023-11-15 00:00:00" itemprop="dateCreated datePublished" datetime="2023-11-15T00:00:00+08:00">2023-11-15</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="index"><span itemprop="name">博客</span></a>
-                </span>
-            </span>
-
-          
-
+            <ul class="pager">
+    
+    
+</ul>
         </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><img src="https://liyyy.xyz/images/avatar.jpg" alt="AnnieYang"><br><strong>你好，我是Y.moon！</strong> 👋  </p>
-<p>这里是我的技术博客，主要分享：</p>
-<ul>
-<li>📚 编程教程（Python&#x2F;JavaScript&#x2F;Go等）</li>
-<li>🛠️ 开发工具使用心得</li>
-<li>🔧 技术问题解决方案</li>
-<li>🌟 个人项目展示</li>
-</ul>
-<h3 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h3><ul>
-<li><a href="/posts/hexo-guide">《Hexo博客搭建指南》</a></li>
-<li><a href="/posts/python-automation">《Python自动化技巧》</a></li>
-</ul>
-<h3 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h3><ul>
-<li>GitHub: <a target="_blank" rel="noopener" href="https://github.com/yourname">你的GitHub</a></li>
-<li>邮箱: <a href="mailto:&#121;&#111;&#x75;&#x72;&#x6e;&#x61;&#109;&#x65;&#64;&#x65;&#x78;&#97;&#109;&#x70;&#108;&#101;&#46;&#x63;&#x6f;&#x6d;">yourname@example.com</a></li>
-</ul>
-<blockquote>
-<p>“Stay hungry, stay foolish.” — Steve Jobs</p>
-</blockquote>
-
-      
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
+</div>
 
 
 
-          </div>
-          
+    <!-- Footer -->
+    <hr />
 
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
 
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2025 AnnieYang<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
         </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="AnnieYang"
-      src="/images/avatar.jpg">
-  <p class="site-author-name" itemprop="name">AnnieYang</p>
-  <div class="site-description" itemprop="description">有时候努力比选择重要</div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">3</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="mailto:2747422797@qq.com" title="E-Mail → mailto:2747422797@qq.com" rel="noopener" target="_blank"><i class="envelope fa-fw"></i>E-Mail</a>
-      </span>
-  </div>
-
-
-
-      </div>
-
     </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
+</footer>
 
 
-      </div>
-    </main>
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 
-    <footer class="footer">
-      <div class="footer-inner">
-        
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-        
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2025</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">AnnieYang</span>
-</div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
-  </div>
-
-        
+<!-- Disqus Comments -->
 
 
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
-
-  
-  
-  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/pisces.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
 
 </body>
+
 </html>
